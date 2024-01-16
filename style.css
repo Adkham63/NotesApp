@@ -36,7 +36,7 @@
     display: flex;
     align-items: center;
     padding: 15px 25px;
-    margin: 3.px 0 25px;
+    margin: 30px 0 20px;
     background: linear-gradient(#9418fd, #571094);
     color: #fff;
     cursor: pointer;
@@ -44,4 +44,25 @@
     outline: 0;
     border: 0;
     border-radius: 40px;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input-box img{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 25px;
+    cursor: pointer;
 }
